@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    background-image: url(./img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: linear-gradient( 0deg,#fff0 0%, rgba(242,119,6,1) 100%);
+    z-index: -1;
+}
+
+header {
+    height: 150px;
+}
+
+.conteudo-container {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.conteudo-container h1 {
+    width: 260px;
+    font-weight: 700;
+}
+
+.conteudo-container p {
+    width: 300px;
+    margin-top: 8px;
+}
+
+.login-card {
+    color: #fff;
+}
+
+.email img {
+    margin-left: -70px;
+}
+
+.email p{
+    margin-top: -25px;
+    margin-left: -32px;
+}
+
+.senha img {
+    margin-left: -70px;
+    margin-top: 35px;
+}
+
+.senha p {
+    margin-top: -25px;
+    margin-left: -32px;
+}
