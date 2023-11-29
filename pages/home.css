@@ -12,7 +12,7 @@ body::after {
     position: absolute;
     content: "";
     inset: 0;
-    background: linear-gradient( #FC7900, #fff );
+    background: linear-gradient( #FC7900, #FC7900, #fff );
     opacity: 58%;
     z-index: -1;
 }
@@ -29,11 +29,15 @@ body::after {
     color: #fff;
 }
 
+.inicio h1 {
+    margin-top: 20px;
+}
+
 .inicio p {
     font-weight: 400;
 }
 
 .inicio img {
-    margin-top: -200px;
+    margin-top: -100px;
     margin-left: 300px;
 }
